@@ -1,0 +1,25 @@
+{
+    "name": "bellashaye/paypal-bundle",
+    "type": "symfony-bundle",
+    "description": "Paypal bundle for use with Symfony2",
+    "keywords": ["example", "bundle"],
+    "homepage": "http://github.com/BellaShaye/PaypalBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Harper",
+            "email": "jeremy@bellashaye.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.1,<2.2-dev"
+    },
+    "autoload": {
+        "psr-0": { "BellaShaye\\PaypalBundle": "master" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "BellaShaye/PaypalBundle"
+}
